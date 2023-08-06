@@ -1,5 +1,19 @@
 # React + TypeScript + Vite
 
+## Dagger
+
+This project has a `build.ts` script that will build the project and output the files to the `dist` folder with [Dagger](https://dagger.io).
+
+To run this build, execute the following command:
+
+```bash
+dagger run npx vite-node build.ts
+```
+
+You can also use `node` with the `ts-node/esm` loader.
+
+## Vite
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
